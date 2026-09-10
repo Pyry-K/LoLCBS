@@ -1,0 +1,114 @@
+:root {
+    --black: #010101;
+    --light_brown: #E3C485;
+    --dark_brown: #BD8E4C;
+    --blue: #014C6B;
+    --dark_blue: #014A6B;
+    --light_blue: #007891;
+    --silver: #70B7E4;
+    --golden: linear-gradient(180deg, var(--light_brown) 0%, var(--dark_brown) 100%);
+    --max-width: 1000px;
+    --container-padding: 20px;
+    --font: "Comic Sans MS", "Comic Sans", cursive;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+  font-family: var(--font);
+  color: var(--tumma);
+  background: linear-gradient(180deg, var(--blue) 0%, var(--light_blue) 100%);
+  min-height: 100vh;
+  line-height: 1.5;
+}
+h1 {
+    font-size: 1.8rem;
+    margin-left: 20px;
+    color: var(--dark_brown);
+    text-shadow: 2px 2px 4px var(--black);
+}
+p {
+    font-size: 1rem;
+    margin-left: 20px;
+    color: var(--light_brown);
+    text-shadow: 2px 2px 4px var(--black);
+}
+/* Recipe card styling */
+.recipe-page {
+    padding: 20px;
+}
+.recipe-output {
+    margin-top: 24px;
+    padding-bottom: 40px;
+}
+.recipe-card {
+    background: var(--dark_blue);
+    border: 1px solid var(--light_blue);
+    border-radius: 12px;
+    padding: 20px;
+    max-width: 900px;
+    margin-left: 20px;
+}
+.recipe-card h2 {
+    color: var(--dark_brown);
+    margin-bottom: 12px;
+    text-shadow: 2px 2px 4px var(--black);
+}
+.recipe-card p {
+    color: var(--light_brown);
+    margin: 8px 0;
+    margin-left: 0;
+}
+.recipe-section {
+    margin-top: 18px;
+}
+.recipe-card h3 {
+    color: var(--dark_brown);
+    margin-bottom: 8px;
+    text-shadow: 2px 2px 4px var(--black);
+}
+.recipe-card ul,
+.recipe-card ol {
+    margin: 10px 0 0 22px;
+    color: var(--light_brown);
+    padding-left: 18px;
+}
+.recipe-card li {
+    margin-bottom: 6px;
+    color: var(--light_brown);
+}
+/* Site header stuff */
+.site-header {
+    background: var(--dark_blue);
+    padding: 16px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.logo {
+    font-size: 2rem;
+    margin: 0;
+    color: var(--dark_brown);
+    text-shadow: 2px 2px 4px var(--black);
+    margin-bottom: 15px;
+}
+a {
+    color: var(--silver);
+    padding: 5px;
+
+}
+.main-nav a {
+  color: var(--silver);
+  text-decoration: none;
+  margin-right: 14px;
+  margin-top: 10px;
+  padding: 6px 8px;
+  border-radius: 5px;
+  font-weight: 500;
+}
+.main-nav a:hover {
+  background: var(--light_blue);
+  color: var(--silver);
+}
