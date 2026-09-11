@@ -9,7 +9,7 @@
     --golden: linear-gradient(180deg, var(--light_brown) 0%, var(--dark_brown) 100%);
     --max-width: 1000px;
     --container-padding: 20px;
-    --font: "Comic Sans MS", "Comic Sans", cursive;
+    --font: Arial, Helvetica, sans-serif;
 }
 * {
     margin: 0;
@@ -108,6 +108,7 @@ a {
   border-radius: 5px;
   font-weight: 500;
 }
+.main-nav a.active,
 .main-nav a:hover {
   background: var(--light_blue);
   color: var(--silver);
